@@ -4,7 +4,7 @@ Feature: User asks for music recommendations
   I would like to received recommendations about what music should listen
 
   @recommendations
-  Scenario: Aks for music recommendations
+  Scenario: Asks for music recommendations
     Given Sergey is a registered user
     And he is logged
     When he asks for recommendations about what music to listen
